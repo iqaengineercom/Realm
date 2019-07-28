@@ -1,0 +1,30 @@
+{
+  "name": "realm",
+  "version": "1.0.0",
+  "description": "Realm",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^3.4.0",
+    "cypress-cucumber-preprocessor": "^1.12.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open"
+  },
+  "cypress-cucumber-preprocessor": {
+    "commonPath": "common",
+    "step_definitions": "cypress/integration"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iqaengineercom/realm.git"
+  },
+  "author": "QA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iqaengineercom/realm/issues"
+  },
+  "homepage": "https://github.com/iqaengineercom/realm#readme"
+}
