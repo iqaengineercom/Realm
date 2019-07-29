@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
+    "lodash": ">=4.17.13",
     "cypress": "^3.4.0",
     "cypress-cucumber-preprocessor": "^1.12.0"
   },
